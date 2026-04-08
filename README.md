@@ -15,9 +15,9 @@ Use the **Raw** GitHub file URL as the sync URL. Greasy Fork accepts these forma
 
 In your GitHub repository, go to **Settings → Webhooks → Add webhook** and set:
 
-- **Payload URL:** `https://greasyfork.org/en/users/1051947-exolocity/webhook` (for this Greasy Fork account)
+- **Payload URL:** `https://greasyfork.org/en/users/1051947-exolocity/webhook` (replace with your own Greasy Fork user webhook URL if using a different account)
 - **Content type:** `application/json`
-- **Secret:** (set your webhook secret)
+- **Secret:** (set your webhook secret; keep it private and never commit it to the repository)
 - **Active:** checked
 
 ### Event selection
